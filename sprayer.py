@@ -79,7 +79,7 @@ def ps(driver, email, password):
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser("python3 gcp_v2.py --email email [--file file] --password 'Password' [--useragent <UserAgent String]" )
+    parser = argparse.ArgumentParser("python3 sprayer.py --email email [--file file] --password 'Password' [--useragent <UserAgent String]" )
     parser.add_argument('--email', dest='email', help='Singular email you want to use', type=str)
     parser.add_argument('--file', help='File of emails, must be newline separated', type=str)
     parser.add_argument('--password', dest='password', help='Password to use for spraying', type=str)
