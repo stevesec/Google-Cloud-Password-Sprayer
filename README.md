@@ -22,6 +22,6 @@ The Google Cloud Password Sprayer is an improvement upon my GCP V2 password spra
 
 ## Further Tasks
 
-[] Add Captcha Response
-[] Implement Fireprox
-[] Create GCP Enumeration
+- [ ] Add Captcha Response
+- [ ] Implement Fireprox
+- [ ] Create GCP Enumeration
